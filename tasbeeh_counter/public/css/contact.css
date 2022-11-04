@@ -1,0 +1,183 @@
+#contact_head{
+    opacity: 0.7;
+    position: relative;
+    top: 10px;
+    width: 15%;
+    float: right;
+}
+
+#contact_form{
+    position: relative;
+    top: 100px;
+    background: rgba(35, 31, 32, 0.65);
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* media Queries */
+@media (min-width: 1281px) {
+    /* Desktops */
+    /* 1281px to higher resolution desktops */
+    
+    #contact_form{
+        top: 100px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px){
+    /* Query for 4k Screens to L Screens */
+    #contact_form{
+        top: 250px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Laptops and Desktop */
+    /* Between 1025px to 1280px */
+    #contact_head{
+        width: 20%;
+    }
+
+    #contact_form{
+        top: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+    #contact_head{
+        opacity: 0.7;
+        position: relative;
+        top: 10px;
+        width: 100%;
+        float: right;
+    }
+
+    .col-3{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    #contact_form{
+        padding: 15px;
+        top: 150px;
+    }
+
+    .form-control{
+        border-radius: 15px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+    /* Landscape */
+    #contact_head{
+        display: none;
+    }
+
+    #contact_form{
+        top: 50px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+@media (width:800px) and (height:600px) {
+    #contact_form{
+        top: 20px;
+        height: 430px;
+        overflow: scroll;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Low Resolution Tablets, Mobiles (Landscape) */
+    /* Between 481px to 767px */
+    #contact_head{
+        opacity: 0.7;
+        position: relative;
+        top: 10px;
+        width: 100%;
+        float: right;
+    }
+
+    .col-3{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    #contact_form{
+        padding: 15px;
+        top: 100px;
+    }
+
+    .form-control{
+        border-radius: 15px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Most of the Smartphones Mobiles (Portrait) */
+    /* Between 320px and 479px */
+    #contact_head{
+        display: none
+    }
+
+    .col-3{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    #contact_form{
+        padding: 15px;
+        top: 20px;
+    }
+
+    .form-control{
+        border-radius: 15px;
+    }
+
+    #footer{
+        display: none;
+    }
+}

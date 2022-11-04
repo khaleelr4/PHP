@@ -1,0 +1,87 @@
+/* Arvo font import */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,400&display=swap');
+
+html, body{
+    background: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arvo', serif !important;
+}
+
+@media only screen and (max-width: 768px) {
+    html, body{
+        background: url('../img/mobile_background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }   
+}
+
+@media only screen and (max-width: 1024px) {
+    html, body{
+        background: url('../img/ipadpro.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }   
+}
+
+@media only screen and (max-width: 768px) {
+    html, body{
+        background: url('../img/ipad.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }   
+}
+
+@media only screen and (max-width: 280px) {
+    html, body{
+        background: url('../img/zfold.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }   
+}
+
+@media only screen and (max-width: 540px) {
+    html, body{
+        background: url('../img/surfaceduo.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }   
+}
+
+@media only screen and (max-width: 320px) {
+    html, body{
+        background: url('../img/iphone5.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }   
+}
+
+@media only screen and (max-width: 768px) {
+    html, body{
+        background: url('../img/res.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-height: 667px;
+    }   
+}
+
+.notification-container{
+    position: absolute;
+    z-index: 1;
+}

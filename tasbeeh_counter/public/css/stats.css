@@ -1,0 +1,109 @@
+#ayat_stat_list{
+    position: relative;
+    top: 50px;
+    opacity: 90%;
+    max-height: 450px;
+    overflow: scroll;
+}
+
+/* media Queries */
+@media (min-width: 1281px) {
+    /* Desktops */
+    /* 1281px to higher resolution desktops */
+    #ayat_stat_list{
+        top: 60px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px){
+    /* Query for 4k Screens to L Screens */
+    #ayat_stat_list{
+        top: 100px;
+        max-height: 560px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Laptops and Desktop */
+    /* Between 1025px to 1280px */
+    #ayat_stat_list{
+        top: 80px;
+        max-height: 600px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+    #ayat_stat_list{
+        top: 100px;
+        max-height: 600px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+    /* Landscape */
+    #ayat_stat_list{
+        top: 50px;
+        max-height: 500px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Low Resolution Tablets, Mobiles (Landscape) */
+    /* Between 481px to 767px */
+    #ayat_stat_list{
+        top: 70px;
+        max-height: 680px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Most of the Smartphones Mobiles (Portrait) */
+    /* Between 320px and 479px */
+    #title{
+        display: none;
+    }
+
+    #ayat_stat_list{
+        top: 30px;
+        max-height: 480px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+#title{
+    position: relative;
+    top: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #30ff00);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #00c6ff);
+}

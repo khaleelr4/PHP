@@ -1,0 +1,39 @@
+.loader_div{
+    position: absolute;
+    background: rgba(35, 31, 32, 0.65);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+/* taken from w3 schools */
+.loader{
+    border: 16px solid #f3f3f3;
+    border-radius: 100%;
+    border-top: 16px solid #C26F13;
+    border-right: 16px solid #07090B;
+    border-bottom: 16px solid #CE8626;
+    border-left: 16px solid #146C3F;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: relative;
+    top: 300px;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#loader_img{
+    width: 250px;
+    position: relative;
+    top: 350px;
+}

@@ -1,0 +1,12 @@
+#preheader{
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.verse2 { display: none; }
+
+/* When resolution <= 768px, hide full text and show short text */
+@media (max-width: 768px) {
+    .verse2 { display: inline-block; }
+    .verse1 { display: none; }
+}

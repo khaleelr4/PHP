@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+#ayat_dropdown{
+    width: 100%!important;
+}
+
+#bismillah_audio{
+    display: none;
+}
+
+#image_placeholder{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+#ayat_audio_div{
+    width: 100%;
+    position: relative;
+    top: 15px;
+}
+
+.dd-selected-image, .dd-option-image {
+    max-width: 100% !important;
+    max-height: 100px !important;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.dd-select, .dd-options, .dd-click-off-close{
+    width: 100%!important;
+}
+
+#screen_overlay{
+    width: 100%;
+    height: 500px;
+    background: rgba(35, 31, 32, 0.65);
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+}
+
+#counter_container{
+    position: relative;
+    top: 50px;
+    left: 140px;
+}
+
+#tasbeeh_counter{
+    min-width: 270px;
+    min-height: 250px;
+}
+
+.counter_btn{
+    padding: 75px;
+    border: 8px solid gold;
+    border-radius: 100%;
+    background-color: #0C6E40;
+    font-family: 'Roboto', sans-serif;
+}
+
+.counter_btn:hover{
+    cursor: pointer;
+}
+
+/* media Queries */
+@media (min-width: 1281px) {
+    /* Desktops */
+    /* 1281px to higher resolution desktops */
+    #screen_overlay{
+        top: 15px;
+        height: 550px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Laptops and Desktop */
+    /* Between 1025px to 1280px */
+    #counter_container{
+        top: 80px;
+        left: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+    .col-6{
+        width: 100%;
+    }
+
+    #screen_overlay{
+        height: 750px;
+    }
+
+    #counter_container{
+        top: 15px;
+        left: 0;
+    }
+
+    #image_placeholder{
+        height: 350px;
+    }
+
+    #tasbeeh_counter {
+        min-width: 100%;
+        min-height: 70px;
+    }
+
+    .counter_btn {
+        padding: 0;
+        border: 2px solid gold;
+        border-radius: 10px;
+        background-color: #0C6E40;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+    /* Landscape */
+    #screen_overlay{
+        top: 15px;
+        height: 500px;
+        overflow: scroll;
+    }
+
+    #counter_container{
+        margin: 15px 0 15px 0;
+    }
+}
+
+@media (width: 800px) and (height: 600px){
+    #screen_overlay{
+        height: 380px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Low Resolution Tablets, Mobiles (Landscape) */
+    /* Between 481px to 767px */
+
+    .col-6{
+        width: 100%;
+    }
+
+    #screen_overlay{
+        top: 10px;
+        height: 570px;
+        overflow: scroll;
+    }
+
+    #counter_container{
+        top: 15px;
+        left: 0;
+    }
+
+    #image_placeholder{
+        height: 250px;
+    }
+
+    #tasbeeh_counter {
+        min-width: 100%;
+        min-height: 70px;
+    }
+
+    #counter_container{
+        margin: 15px 0 15px 0;
+    }
+
+    #ayat_audio_div{
+        margin: 10px auto 10px auto;
+    }
+
+    .counter_btn {
+        padding: 0;
+        border: 2px solid gold;
+        border-radius: 10px;
+        background-color: #0C6E40;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Most of the Smartphones Mobiles (Portrait) */
+    /* Between 320px and 479px */
+
+    .col-6{
+        width: 100%;
+    }
+
+    #screen_overlay{
+        top: 10px;
+        left: 10px;
+        height: 600px;
+    }
+
+    #counter_container{
+        top: 15px;
+        left: 0;
+    }
+
+    #image_placeholder{
+        height: 200px;
+    }
+
+    #tasbeeh_counter {
+        min-width: 100%;
+        min-height: 70px;
+    }
+
+    #counter_container{
+        margin: 10px 0 10px 0;
+    }
+
+    #ayat_audio_div{
+        margin: 5px auto 5px auto;
+    }
+
+    .counter_btn {
+        padding: 0;
+        border: 2px solid gold;
+        border-radius: 10px;
+        background-color: #0C6E40;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+/* 4k Media Query 3840 x 2160 */
+@media (min-width: 3840px) and (max-width: 2160px) {
+}
+
+/* scroll code */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #30ff00);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #00c6ff);
+}

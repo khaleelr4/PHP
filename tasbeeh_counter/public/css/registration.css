@@ -1,0 +1,115 @@
+#register_form{
+    background: rgba(245, 245, 245, 0.95);
+    width: 60%;
+    height: 580px;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    border-radius: 5px;
+    margin: auto;
+    overflow: scroll;
+}
+
+/* media Queries */
+@media (min-width: 1440px) and (max-width: 2560px){
+    /* Query for 4k Screens to L Screens */
+    #register_form{
+        height: 650px;
+        top: 100px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Laptops and Desktop */
+    /* Between 1025px to 1280px */
+    #register_form{
+        height: 650px;
+        top: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+
+    #register_form{
+        height: 690px;
+        top: 90px;
+    }
+
+    .form-control{
+        border-radius: 15px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+    /* Landscape */
+    #register_form{
+        height: 620px;
+        top: 30px;
+    }
+
+    .form-control{
+        border-radius: 15px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Low Resolution Tablets, Mobiles (Landscape) */
+    /* Between 481px to 767px */
+    #register_form{
+        width: 100%;
+        height: 750px;
+        top: 50px;
+    }
+
+    .form-control{
+        border-radius: 15px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Most of the Smartphones Mobiles (Portrait) */
+    /* Between 320px and 479px */
+    #register_form{
+        width: 100%;
+        height: 700px;
+        top: 10px;
+    }
+
+    .form-control{
+        border-radius: 15px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #30ff00);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #00c6ff);
+}

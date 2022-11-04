@@ -1,0 +1,139 @@
+#about_head{
+    opacity: 0.7;
+    position: relative;
+    top: 10px;
+    width: 15%;
+    float: right;
+}
+
+#aboutscroll{
+    color: white;
+    width: 100%;
+    height: 480px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    top: 15px;
+    background-color: #000000;
+    opacity: 65%;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+/* media Queries */
+@media (min-width: 1281px) {
+    /* Desktops */
+    /* 1281px to higher resolution desktops */
+    #aboutscroll{
+        height: 460px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px){
+    /* Query for 4k Screens to L Screens */
+    #aboutscroll{
+        height: 700px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Laptops and Desktop */
+    /* Between 1025px to 1280px */
+    #aboutscroll{
+        height: 740px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+    #about_head{
+        opacity: 0.7;
+        position: relative;
+        top: 10px;
+        width: 100%;
+        float: right;
+    }
+
+    #aboutscroll{
+        height: 725px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Portrait Tablets and Mobiles */
+    /* Between 768px to 1024px */
+    /* Landscape */
+    #about_head{
+        opacity: 0.7;
+        position: relative;
+        top: 10px;
+        width: 100%;
+        float: right;
+    }
+
+    #aboutscroll{
+        height: 370px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Low Resolution Tablets, Mobiles (Landscape) */
+    /* Between 481px to 767px */
+
+    #about_head{
+        opacity: 0.7;
+        position: relative;
+        top: 10px;
+        width: 100%;
+        float: right;
+    }
+
+    #aboutscroll{
+        height: 750px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Most of the Smartphones Mobiles (Portrait) */
+    /* Between 320px and 479px */
+    #about_head{
+        opacity: 0.7;
+        position: relative;
+        top: 10px;
+        width: 100%;
+        float: right;
+    }
+
+    #aboutscroll{
+        height: 600px;
+    }
+
+    #footer{
+        display: none;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #30ff00);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #00c6ff);
+}
